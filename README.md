@@ -131,4 +131,4 @@ After clicking anyone of the option, we need to select an audio file. We can sel
 
 ## License
 
-This project is licensed under the NLTM License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the NLTM License - see the [../LICENSE](LICENSE) file for details.

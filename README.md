@@ -73,12 +73,10 @@ To perform this task, we have the following functions in the GUI.
  First click on the "Start Recording" button and then press the "OK" button to start the recording of speech audio using the microphone.
 
 <p float="left">
-  <img src="img/Main1.png" width="50%"/>
-  <img src="img/Recording_start.png" width="50%"/>
+  <img src="img/Main1.png" width="90%"/>
+  <img src="img/Recording_start.png" width="90%"/>
 </p>
 
-[![srec](img/Recording_start.png  "srec")](img/Recording_start.png  "srec")
-![](img/Main1.png  =20x) ![](img/Recording_start.png =20x)
 
 - **Stop Recording**: Stops the ongoing audio recording.
 

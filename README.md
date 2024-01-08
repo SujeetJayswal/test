@@ -66,8 +66,7 @@ The GUI window will appear, providing options for recording audio, playing saved
 
 ## Features
 
-#### 1. Language identification by recording the speech audio: 
-To perform this task, we have the following functions in the GUI.
+#### 1. Recording the speech audio
 
 ##### (i) Start Recording
  First click on the "Start Recording" button and then press the "OK" button to start the recording of speech audio using the microphone.
@@ -77,29 +76,40 @@ To perform this task, we have the following functions in the GUI.
   <img src="img/Recording_start.png" width="90%"/>
 </p>
 
+##### (ii) Stop Recording
+To stop the ongoing audio recording, click on the "Stop Recording" button. The recording will be stoped immidiately. Then click on the "OK" button. After this, the next window will show the message regarding the location of saved recorded audio. You need to choose this audio when you will perform the language identification.
+<p float="left">
+  <img src="img/Main2.png" width="90%"/>
+  <img src="img/Recording_stop.png" width="90%"/>
+  <img src="img/Recording_stop1.png" width="90%"/>
+</p>
 
-- **Stop Recording**: Stops the ongoing audio recording.
+##### (iii) Play Recording
+If you want to liesten the recorded audio, you can do it by pressing the "Play Recording" button.
+<p float="left">
+  <img src="img/Main3.png" width="90%"/>
+</p>
 
-- **Play Recording**: Plays the recorded audio.
-<img src="Main3.png"
-     alt="Play Recording"
-     style="float: left; margin-right: 10px;" />
-- **Play Saved Audio**: Select and play a saved audio file.
-<img src="Main4.png"
-     alt="Play Saved Audio"
-     style="float: left; margin-right: 10px;" />
-- **Stop Saved Audio**: Stops the currently playing saved audio.
-<img src="Main5.png"
-     alt="Stop Saved Audio"
-     style="float: left; margin-right: 10px;" />
-- **Identify Language (Using uVector)**: Identifies the language of the selected audio using standard uVector models.
-<img src="Main6.png"
-     alt="Identify Language (Using uVector)"
-     style="float: left; margin-right: 10px;" />
-- **Identify Language (Using WSSL uVector)**: Identifies the language of the selected audio using WSSL uVector models.
-<img src="Main7.png"
-     alt="Identify Language (Using WSSL uVector)"
-     style="float: left; margin-right: 10px;" />
+#### 2. To check the saved speech audio
+You can check the saved audio by playing the saved audio. Click on the "Play Saved Audio" button and then choose the audio file using opened file manager. After selecting the audio file, the audio will be played. You can also stop playing the audio any time by clicking the "Stop Saved Audio" button.
+
+<p float="left">
+  <img src="img/Main4.png" width="90%"/>
+  <img src="img/Open_file.png" width="90%"/>
+  <img src="img/Main5.png" width="90%"/>
+</p>
+
+#### 3. Language Identification: 
+We have two models (uVector and uVector with WSSL) to perform this task. We need to click "Identify Language (Using uVector)" for uVector and "Identify Language (Using WSSL uVector)" for uVector with WSSL.
+<p float="left">
+  <img src="img/Main6.png" width="90%"/>
+  <img src="img/Main7.png" width="90%"/>
+</p>
+
+After clicking anyone of the option, we need to select an audio file. We can select the recorded audio from "recorded_audio" directory. We can also choose other saved audio file using the open file manager.
+ <p float="left">
+  <img src="img/Open_file1.png" width="90%"/>
+</p>
 
 
 ## Results and Confirmation

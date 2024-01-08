@@ -66,15 +66,15 @@ The GUI window will appear, providing options for recording audio, playing saved
 
 ## Features
 
-#### 1. Language identification of recorded speech audio: 
+#### 1. Language identification by recording the speech audio: 
 To perform this task, we have the following functions in the GUI.
 
-##### Start Recording
+##### (i) Start Recording
+ First click on the "Start Recording" button and then press the "OK" button to start the recording of speech audio using the microphone.
 
 <p float="left">
-  <img src="img/Main1.png" width="30%"/>
-  <img src="img/Recording_start.png" width="30%"/> 
-  <img src="img/Main1.png" width="30%"/>
+  <img src="img/Main1.png" width="50%"/>
+  <img src="img/Recording_start.png" width="50%"/>
 </p>
 
 [![srec](img/Recording_start.png  "srec")](img/Recording_start.png  "srec")

@@ -77,7 +77,7 @@ The GUI window will appear, providing options for recording audio, playing saved
 </p>
 
 ##### (ii) Stop Recording
-To stop the ongoing audio recording, click on the "Stop Recording" button. The recording will be stoped immidiately. Then click on the "OK" button. After this, the next window will show the message regarding the location of saved recorded audio. You need to choose this audio when you will perform the language identification.
+To stop the ongoing audio recording, click on the "Stop Recording" button. The recording will be stopped immediately. Then click on the "OK" button. After this, the next window will show the message regarding the location of saved recorded audio. You need to choose this audio when you will perform the language identification.
 <p float="left">
   <img src="img/Main2.png" width="90%"/>
   <img src="img/Recording_stop.png" width="90%"/>
